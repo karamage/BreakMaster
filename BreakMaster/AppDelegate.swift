@@ -13,9 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let APPID = ""
+    let CLIENT_SECRET = ""
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        MEMELib.setAppClientId(APPID, clientSecret: CLIENT_SECRET)
         return true
     }
 

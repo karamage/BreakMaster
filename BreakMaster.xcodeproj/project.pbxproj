@@ -12,7 +12,31 @@
 		9355740D1C2E57C800FC1549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9355740B1C2E57C800FC1549 /* Main.storyboard */; };
 		9355740F1C2E57C800FC1549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9355740E1C2E57C800FC1549 /* Assets.xcassets */; };
 		935574121C2E57C800FC1549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935574101C2E57C800FC1549 /* LaunchScreen.storyboard */; };
+		9355741E1C2E5FC800FC1549 /* MEMELib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935574191C2E580000FC1549 /* MEMELib.framework */; };
+		9355741F1C2E5FC800FC1549 /* MEMELib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 935574191C2E580000FC1549 /* MEMELib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		935574221C2E661100FC1549 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935574211C2E661100FC1549 /* Status.swift */; };
+		935574281C2E6C6B00FC1549 /* 02_gender.png in Resources */ = {isa = PBXBuildFile; fileRef = 935574241C2E6C6B00FC1549 /* 02_gender.png */; };
+		935574291C2E6C6B00FC1549 /* 01_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 935574251C2E6C6B00FC1549 /* 01_top.png */; };
+		9355742A1C2E6C6B00FC1549 /* 03_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 935574261C2E6C6B00FC1549 /* 03_main.png */; };
+		9355742B1C2E6C6B00FC1549 /* 04_movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 935574271C2E6C6B00FC1549 /* 04_movie.png */; };
+		9355742D1C2E6D1D00FC1549 /* SexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355742C1C2E6D1D00FC1549 /* SexViewController.swift */; };
+		9355742F1C2E79F500FC1549 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355742E1C2E79F500FC1549 /* TitleViewController.swift */; };
+		935574321C2E7CC300FC1549 /* player.html in Resources */ = {isa = PBXBuildFile; fileRef = 935574311C2E7CC300FC1549 /* player.html */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		935574201C2E5FC800FC1549 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9355741F1C2E5FC800FC1549 /* MEMELib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		935574041C2E57C800FC1549 /* BreakMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +46,16 @@
 		9355740E1C2E57C800FC1549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935574111C2E57C800FC1549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		935574131C2E57C800FC1549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935574191C2E580000FC1549 /* MEMELib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MEMELib.framework; sourceTree = "<group>"; };
+		9355741B1C2E587400FC1549 /* BreakMaster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BreakMaster-Bridging-Header.h"; sourceTree = "<group>"; };
+		935574211C2E661100FC1549 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		935574241C2E6C6B00FC1549 /* 02_gender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02_gender.png; sourceTree = "<group>"; };
+		935574251C2E6C6B00FC1549 /* 01_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01_top.png; sourceTree = "<group>"; };
+		935574261C2E6C6B00FC1549 /* 03_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03_main.png; sourceTree = "<group>"; };
+		935574271C2E6C6B00FC1549 /* 04_movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04_movie.png; sourceTree = "<group>"; };
+		9355742C1C2E6D1D00FC1549 /* SexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexViewController.swift; sourceTree = "<group>"; };
+		9355742E1C2E79F500FC1549 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		935574311C2E7CC300FC1549 /* player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = player.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9355741E1C2E5FC800FC1549 /* MEMELib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +89,40 @@
 		935574061C2E57C800FC1549 /* BreakMaster */ = {
 			isa = PBXGroup;
 			children = (
+				935574301C2E7CA100FC1549 /* html */,
+				935574231C2E6BD500FC1549 /* images */,
 				935574071C2E57C800FC1549 /* AppDelegate.swift */,
 				935574091C2E57C800FC1549 /* ViewController.swift */,
 				9355740B1C2E57C800FC1549 /* Main.storyboard */,
 				9355740E1C2E57C800FC1549 /* Assets.xcassets */,
 				935574101C2E57C800FC1549 /* LaunchScreen.storyboard */,
+				935574191C2E580000FC1549 /* MEMELib.framework */,
 				935574131C2E57C800FC1549 /* Info.plist */,
+				9355741B1C2E587400FC1549 /* BreakMaster-Bridging-Header.h */,
+				935574211C2E661100FC1549 /* Status.swift */,
+				9355742C1C2E6D1D00FC1549 /* SexViewController.swift */,
+				9355742E1C2E79F500FC1549 /* TitleViewController.swift */,
 			);
 			path = BreakMaster;
+			sourceTree = "<group>";
+		};
+		935574231C2E6BD500FC1549 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				935574241C2E6C6B00FC1549 /* 02_gender.png */,
+				935574251C2E6C6B00FC1549 /* 01_top.png */,
+				935574261C2E6C6B00FC1549 /* 03_main.png */,
+				935574271C2E6C6B00FC1549 /* 04_movie.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		935574301C2E7CA100FC1549 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				935574311C2E7CC300FC1549 /* player.html */,
+			);
+			name = html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +135,7 @@
 				935574001C2E57C800FC1549 /* Sources */,
 				935574011C2E57C800FC1549 /* Frameworks */,
 				935574021C2E57C800FC1549 /* Resources */,
+				935574201C2E5FC800FC1549 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +158,11 @@
 				TargetAttributes = {
 					935574031C2E57C800FC1549 = {
 						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,7 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				935574121C2E57C800FC1549 /* LaunchScreen.storyboard in Resources */,
+				9355742A1C2E6C6B00FC1549 /* 03_main.png in Resources */,
+				9355742B1C2E6C6B00FC1549 /* 04_movie.png in Resources */,
+				935574321C2E7CC300FC1549 /* player.html in Resources */,
 				9355740F1C2E57C800FC1549 /* Assets.xcassets in Resources */,
+				935574281C2E6C6B00FC1549 /* 02_gender.png in Resources */,
+				935574291C2E6C6B00FC1549 /* 01_top.png in Resources */,
 				9355740D1C2E57C800FC1549 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9355740A1C2E57C800FC1549 /* ViewController.swift in Sources */,
+				9355742D1C2E6D1D00FC1549 /* SexViewController.swift in Sources */,
 				935574081C2E57C800FC1549 /* AppDelegate.swift in Sources */,
+				935574221C2E661100FC1549 /* Status.swift in Sources */,
+				9355742F1C2E79F500FC1549 /* TitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +322,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BreakMaster",
+				);
 				INFOPLIST_FILE = BreakMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karamage.BreakMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BreakMaster/BreakMaster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -258,10 +340,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BreakMaster",
+				);
 				INFOPLIST_FILE = BreakMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karamage.BreakMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BreakMaster/BreakMaster-Bridging-Header.h";
 			};
 			name = Release;
 		};
